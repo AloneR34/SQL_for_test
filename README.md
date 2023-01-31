@@ -8,10 +8,12 @@ LEFT JOIN connection_P_C PC
 LEFT JOIN Categories C
 	ON PC.CategoryId = C.Id;
   
-![image](https://user-images.githubusercontent.com/78875572/215729324-bd33a287-741f-4426-a72d-9a92dd50db3e.png)
+  
+![Снимок экрана (1)](https://user-images.githubusercontent.com/78875572/215729990-9624b15a-dfa9-4d55-99f0-7e4932a1543e.png)
 
 
 **Описание создания таблиц**
+
 CREATE TABLE Categories (
 	Id INT PRIMARY KEY,
 	"Name" TEXT
