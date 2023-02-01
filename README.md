@@ -1,45 +1,14 @@
-# SQL_for_test
+#Library_for_test
 
 **Задание**
 
-В базе данных MS SQL Server есть продукты и категории. Одному продукту может соответствовать много категорий, в одной категории может быть много продуктов. Напишите SQL запрос для выбора всех пар «Имя продукта – Имя категории». Если у продукта нет категорий, то его имя все равно должно выводиться.
+Напишите на C# библиотеку для поставки внешним клиентам, которая умеет вычислять площадь круга по радиусу и треугольника по трем сторонам. 
 
-Связь многие-ко-многим реализована с помощью таблицы connection_P_C. Запрос будет содежать все продукты даже если у некоторых продуктов не будет категории, поскольку связь таблиц Products и connection_P_C осуществляется через LEFT JOIN.
+Библиотека и модульные тесты лежат в проекте MindBox. В проекте ConsoleApp1 находится проект с использованием данной библиотеки.
 
-SELECT P."Name", C."Name"
-FROM Products P
-LEFT JOIN connection_P_C PC
-	ON P.Id = PC.ProductId
-LEFT JOIN Categories C
-	ON PC.CategoryId = C.Id;
-  
-  
-![Снимок экрана (1)](https://user-images.githubusercontent.com/78875572/215729990-9624b15a-dfa9-4d55-99f0-7e4932a1543e.png)
+Проверка работы расчетных методов библиотеки
+![Снимок экрана (7)](https://user-images.githubusercontent.com/78875572/216074421-9335d9e7-5583-4b72-8486-a9659c1e8f27.png)
 
+Проверка работоспособности библиотеки
+![Снимок экрана (6)](https://user-images.githubusercontent.com/78875572/216074405-70e0620c-f086-4ffb-a8f6-f7d82ef0ad47.png)
 
-**Описание создания таблиц**
-
-CREATE TABLE Categories (
-	Id INT PRIMARY KEY,
-	"Name" TEXT
-);
-
-INSERT INTO Categories
-VALUES
-	(1, 'Food'),
-	(2, 'Electronic'),
-	(3, 'Domestic tools');
-
-
-CREATE TABLE connection_P_C (
-	ProductId INT FOREIGN KEY REFERENCES Products(Id),
-	CategoryId INT FOREIGN KEY REFERENCES Categories(Id),
-	PRIMARY KEY (ProductId, CategoryId)
-);
-
-INSERT INTO connection_P_C
-VALUES
-	(1, 2),
-	(2, 1),
-	(2, 3),
-	(3, 3);
