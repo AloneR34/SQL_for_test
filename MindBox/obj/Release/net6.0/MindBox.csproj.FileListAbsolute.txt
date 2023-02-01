@@ -1,0 +1,12 @@
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\bin\Release\net6.0\MindBox.deps.json
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\bin\Release\net6.0\MindBox.dll
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\bin\Release\net6.0\MindBox.pdb
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\MindBox.csproj.AssemblyReference.cache
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\MindBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\MindBox.AssemblyInfoInputs.cache
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\MindBox.AssemblyInfo.cs
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\MindBox.csproj.CoreCompileInputs.cache
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\MindBox.dll
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\refint\MindBox.dll
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\MindBox.pdb
+C:\Users\alry2\Desktop\ВолГТУ\Тесты для hh\MindBox\MindBox\obj\Release\net6.0\ref\MindBox.dll

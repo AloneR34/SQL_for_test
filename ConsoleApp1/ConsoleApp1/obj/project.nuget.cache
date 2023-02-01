@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "K1FxzP0bRZVdmgvZVpgy+6S7SDku2ui9t7BFuveTp3sNKLGWBNaDrmwxX+dKbzd3/kxc+d3gme73II2aw+bvMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alry2\\Desktop\\ВолГТУ\\Тесты для hh\\MindBox\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alry2\\.nuget\\packages\\nettopologysuite\\2.5.0\\nettopologysuite.2.5.0.nupkg.sha512",
+    "C:\\Users\\alry2\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
