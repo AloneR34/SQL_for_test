@@ -1,4 +1,4 @@
-#Library_for_test#
+Library_for_test
 
 **Задание**
 
